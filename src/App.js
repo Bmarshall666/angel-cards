@@ -1,7 +1,6 @@
 import "./App.css";
 import AngelCard from "./components/AngelCard";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 function App() {
   const [cardImage, setCardImage] = useState(null);
