@@ -39,18 +39,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button  src="BackArrow.svg" alt="Back Arrow"  className="Home-Button" onClick={handleRedirtect}>
+        <button className="Home-Button" onClick={handleRedirtect}>
+          <img className="Back-Arrow" src="BackArrow.svg" alt="Back Arrow" />
         </button>
-        <div>
-          <AngelCard
-            image={cardImage}
-            backImage={backCardImage}
-            flipped={flipped}
-          />
-          <button className="Pick-Button" onClick={handleClick}>
-            Pick a Card!
-          </button>
-        </div>
+        <AngelCard
+          image={cardImage}
+          backImage={backCardImage}
+          flipped={flipped}
+        />
+        <button className="Pick-Button" onClick={handleClick}>
+          Pick a Card!
+        </button>
       </header>
     </div>
   );
