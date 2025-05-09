@@ -1,5 +1,10 @@
+.App{
+}
+
 .App-header {
-  background-color: #e9fffc;
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,10 +42,10 @@
 }
 
 .Home-Button{
+  background: none;
   border: none;
-  background-color: #e9fffc;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -51,7 +56,7 @@
   box-shadow: none;
 }
 .Back-Arrow{
-  width: 2rem;
+  width: 3rem;
 }
 
 /* Responsive adjustments */
